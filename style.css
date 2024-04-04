@@ -1,0 +1,108 @@
+:root {
+
+}
+
+* {
+    margin: 0;
+    font-family: "Tomorrow", Verdana, sans-serif;
+}
+
+/* Keyframe for a cycling rgb background */
+@keyframes colorcycle {
+    0%    { background-color: red;}
+    12.5% { background-color: #ff00a8;}
+    25%   { background-color: #c400ff;}
+    37.5% { background-color: #00d3ff;}
+    50%   { background-color: #00ffaf;}
+    62.5% { background-color: #1aff00;}
+    75%   { background-color: #dbff00;}
+    87.5% { background-color: #ffc000;}
+    100%  { background-color: red;}
+}
+
+header {
+    height: 10dvh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    height: 9dvh;
+    width: 95%;
+    background-color: white;
+}
+
+.navlinks {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+}
+
+header > nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header > nav > section {
+    display: flex;
+    flex-direction: row;
+    width: 50dvw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+main {
+    min-height: 85dvh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+main > img {
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-top: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+main > h1 {
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+    font-size: 5em;
+    text-align: center;
+}
+
+main > h2 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+footer {
+    height: 5dvh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: red;
+    animation-name: colorcycle;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+footer > h1 {
+    font-size: 0.8em;
+    padding-right: 1em;
+}
