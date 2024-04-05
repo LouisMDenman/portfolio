@@ -342,9 +342,6 @@ footer > h1 {
         text-align: center;
         width: 80dvw;
         height: 70dvh;
-        /* margin-left: 7.5%;
-        margin-right: 7.5%;
-        margin-bottom: 10%; */
         background-color: black;
         border-radius: 5%;
         border: 1px solid black;
@@ -359,7 +356,7 @@ footer > h1 {
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 300px) {
 
     main > h1 {
         display: flex;
