@@ -186,9 +186,15 @@ main > p {
     margin-right: 10%;
 }
 
-main > div > p > a {
+.projectcards > p > a {
     text-decoration: none;
     color: blue;
+}
+
+.cardstack {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 footer {
@@ -282,3 +288,114 @@ footer > h1 {
     }
 
 }
+
+@media screen and (min-width: 1400px) {
+
+    main > img {
+        height: 40%;
+        width: 40%;
+        object-fit: cover;
+        border-radius: 100%;
+        border: 1px solid black;
+        margin-top: 2em;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 1em;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    nav > a {
+        text-decoration: none;
+        color: black;
+        font-size: 0.6em;
+    }
+
+    .navlinks > a {
+        text-decoration: none;
+        color: black;
+        font-size: 0.6em;
+    }
+
+    main > h1 {
+        display: flex;
+        justify-content: center;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        padding-bottom: 0.5em;
+        font-size: 3em;
+        text-align: center;
+    }
+
+    main > h2 {
+        font-size: 1em;
+        padding: 0.5em;
+        text-align: center;
+    }
+
+    .projectcards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 80dvw;
+        height: 70dvh;
+        /* margin-left: 7.5%;
+        margin-right: 7.5%;
+        margin-bottom: 10%; */
+        background-color: black;
+        border-radius: 5%;
+        border: 1px solid black;
+        color: white;
+    }
+
+    .projectcards > p > a {
+        text-decoration: none;
+        color: blue;
+        font-size: 0.8em;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    main > h1 {
+        display: flex;
+        justify-content: center;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        padding-bottom: 0.5em;
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    main > h2 {
+        font-size: 0.8em;
+        padding: 0.5em;
+        text-align: center;
+    }
+
+    .contactimages {
+        height: 8em;
+        width: 8em;
+        object-fit: cover;
+        border-radius: 20%;
+        border: 1px solid black;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .projectcards > p > a {
+        text-decoration: none;
+        color: blue;
+        font-size: 0.7em;
+    }
+
+}
+
+
+
