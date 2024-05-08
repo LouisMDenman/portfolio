@@ -390,6 +390,7 @@ footer > h1 {
         text-decoration: none;
         color: blue;
         font-size: 0.7em;
+        max-width: 90%;
     }
 
 }
