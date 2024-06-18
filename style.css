@@ -134,6 +134,7 @@ main > ul {
     max-width: 80%;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 1em;
 }
 
 main > ul > li {
@@ -240,6 +241,7 @@ footer > h1 {
         max-width: 40%;
         padding-left: 30%;
         padding-right: 30%;
+        padding-bottom: 1em;
     }
     
     main > ul > li {
@@ -305,7 +307,7 @@ footer > h1 {
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 
     nav > a {
         text-decoration: none;
@@ -356,7 +358,7 @@ footer > h1 {
 
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 350px) {
 
     main > h1 {
         display: flex;
@@ -413,6 +415,7 @@ footer > h1 {
         max-width: 10%;
         padding-left: 45%;
         padding-right: 45%;
+        padding-bottom: 1em;
     }
     
     main > ul > li {
